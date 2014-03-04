@@ -7,5 +7,5 @@ Currently a work-in-progress project.
 To see example output, view *image_list.html* and *image_view.html*.
 
 ###### Dependencies
-+ Linux (Will work on any Debian based distro, but probably all linux)
++ Linux (Will work on any Debian based distro, but probably all linux flavours)
 + Django framework.
