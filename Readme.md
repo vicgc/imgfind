@@ -1,4 +1,4 @@
-imgfind
+imgfind.sh
 =======
 Very much a work in progress as part of an ongoing project.
  
