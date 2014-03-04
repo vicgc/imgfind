@@ -1,0 +1,41 @@
+<html>
+<head>
+  <title>Recovered Images</title>
+
+  <style>
+   .image_list {
+      float:left;
+      width:30%;
+      height:80%;
+    }
+    .dynamic {
+      float:right;
+      width:70%;
+      height:80%;
+    }
+
+  bold {
+    font-weight:bold;
+  }
+
+	a:link {color:#6275E3;}   
+	a:visited {color:#C16BF2; background-color:} 
+	a:hover {color:#6275E3; background-color: #DDD9DE;} 
+	a:active {color:#E98D7B; background-color: #DDD9DE;}  
+
+	body { font-family: Verdana, Geneva, sans-serif; }
+
+  </style>
+
+</head>
+<body>
+<h1>Recovered image files:</h1>
+
+<p>Click an image location to preview. Their filetype based on the file header is shown next to each location. 
+</br>
+<bold>NB</bold>: There may be a mismatch between the reported filetype and the file extension if the file has been renamed.</p>
+
+  <iframe class="image_list" src="image_list.html" frameborder="0"></iframe>
+  <iframe name="dynamic" class="dynamic" src="" frameborder="0"></iframe>
+</body>
+</html>

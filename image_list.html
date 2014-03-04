@@ -1,0 +1,102 @@
+<html>
+<head>
+  <title>Recovered Images</title>
+
+  <style>
+   .image_list {
+      float:left;
+      width:30%;
+      height:80%;
+    }
+    .dynamic {
+      float:right;
+      width:70%;
+      height:80%;
+    }
+
+	a:link {color:#6275E3;}   
+	a:visited {color:#C16BF2; background-color:} 
+	a:hover {background-color: #DDD9DE;} 
+	a:active {color:#E98D7B; background-color: #DDD9DE;}  
+
+	body { font-family: Verdana, Geneva, sans-serif; }
+
+  ol {
+    counter-reset: li; /* Initiate a counter */
+    list-style: none; 
+    *list-style: decimal;
+    font: 13px "Lucida Console", Monaco, monospace;
+    padding: 0;
+    margin-bottom: 4em;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    }
+
+    ol ol {
+    margin: 0 0 0 2em; /* Add some left margin for inner lists */
+          }
+
+  .rectangle-list a{
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em .8em;
+    *padding: .4em;
+    margin: .5em 0 .5em 2.5em;
+    background: #ddd;
+    color: #444;
+    text-decoration: none;
+    transition: all .3s ease-out;   
+}
+
+.rectangle-list a:hover{
+    background: #eee;
+}   
+
+.rectangle-list a:before{
+    content: counter(li);
+    counter-increment: li;
+    position: absolute; 
+    left: -2.5em;
+    top: 50%;
+    margin-top: -1em;
+    background: #fa8072;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.rectangle-list a:after{
+    position: absolute; 
+    content: '';
+    border: .5em solid transparent;
+    left: -1em;
+    top: 50%;
+    margin-top: -.5em;
+    transition: all .3s ease-out;               
+}
+
+.rectangle-list a:hover:after{
+    left: -.5em;
+    border-left-color: #fa8072;             
+}   
+
+  </style>
+
+</head>
+<body>
+<ol class="rectangle-list">
+<li> <a href="/mnt/analysis/Pics/C800x600.jpg" target=dynamic>/mnt/analysis/Pics/C800x600.jpg Filetype: JPEG file.</a></li>
+<li> <a href="/mnt/analysis/Pics/bike2.jpg" target=dynamic>/mnt/analysis/Pics/bike2.jpg Filetype: Bitmap file.</a></li>
+<li> <a href="/mnt/analysis/Pics/bike3.jpg" target=dynamic>/mnt/analysis/Pics/bike3.jpg Filetype: Bitmap file.</a></li>
+<li> <a href="/mnt/analysis/Pics/matrixs3.jpg" target=dynamic>/mnt/analysis/Pics/matrixs3.jpg Filetype: JPEG file.</a></li>
+<li> <a href="/mnt/analysis/Pics/mulewheelie.gif" target=dynamic>/mnt/analysis/Pics/mulewheelie.gif Filetype: Bitmap file.</a></li>
+<li> <a href="/mnt/analysis/Pics/Stoppie.gif" target=dynamic>/mnt/analysis/Pics/Stoppie.gif Filetype: GIF file.</a></li>
+<li> <a href="/mnt/analysis/ouchy.dat" target=dynamic>/mnt/analysis/ouchy.dat Filetype: JPEG file.</a></li>
+</ol>
+
+<p> To automatically rename these files to their detected filetype extensions, click <a href="">HERE.</a>
+</p>
+
+</body>
+</html>

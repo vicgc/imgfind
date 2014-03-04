@@ -1,0 +1,7 @@
+<li> <a href="/mnt/analysis/Pics/C800x600.jpg" target=dynamic>/mnt/analysis/Pics/C800x600.jpg Filetype: JPEG file.</a></li>
+<li> <a href="/mnt/analysis/Pics/bike2.jpg" target=dynamic>/mnt/analysis/Pics/bike2.jpg Filetype: Bitmap file.</a></li>
+<li> <a href="/mnt/analysis/Pics/bike3.jpg" target=dynamic>/mnt/analysis/Pics/bike3.jpg Filetype: Bitmap file.</a></li>
+<li> <a href="/mnt/analysis/Pics/matrixs3.jpg" target=dynamic>/mnt/analysis/Pics/matrixs3.jpg Filetype: JPEG file.</a></li>
+<li> <a href="/mnt/analysis/Pics/mulewheelie.gif" target=dynamic>/mnt/analysis/Pics/mulewheelie.gif Filetype: Bitmap file.</a></li>
+<li> <a href="/mnt/analysis/Pics/Stoppie.gif" target=dynamic>/mnt/analysis/Pics/Stoppie.gif Filetype: GIF file.</a></li>
+<li> <a href="/mnt/analysis/ouchy.dat" target=dynamic>/mnt/analysis/ouchy.dat Filetype: JPEG file.</a></li>
